@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="assets/images/bulma-logo.png" width="112" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item">
+            Documentation
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light" href="./page_login.html">
+                Log in
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+
+        <div class="columns">
+          <!-- LEFT COLUMN -->
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-96x96">
+                      <img src="https://i.pravatar.cc/100" class="is-rounded" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-5">John Smith</p>
+                    <p class="subtitle is-6">Digital Marketer</p>
+                    <nav class="level">
+                      <div class="level-left">
+                        <a class="level-item">
+                          <span class="icon is-small has-text-black"><i class="fab fa-facebook"></i></span>
+                        </a>
+                        <a class="level-item">
+                          <span class="icon is-small has-text-black"><i class="fab fa-twitter"></i></span>
+                        </a>
+                        <a class="level-item">
+                          <span class="icon is-small has-text-black"><i class="fab fa-instagram"></i></span>
+                        </a>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+
+                <div class="media">
+                  <div class="media-content">Member Since</div>
+                  <div class="media-right">June 2020</div>
+                </div>
+
+                <div class="media">
+                  <div class="media-content">Location</div>
+                  <div class="media-right">United States</div>
+                </div>
+
+                <div class="media">
+                  <button class="button is-fullwidth is-outlined is-black">Contact Me</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- END LEFT COLUMN -->
+
+          <!-- RIGHT COLUMN -->
+          <div class="column">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-header-title">Reviews</div>
+              </div>
+              <div class="card-content">
+
+                <!-- article -->
+                <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-48x48">
+                      <img src="https://i.pravatar.cc/200" class="is-rounded" alt="Placeholder image">
+                    </p>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Jon Snow</strong>
+                        <br>
+                        Lorem suscipit quia iure repudiandae laboriosam quia! Eos ea corporis nulla omnis ducimus dolores error. Fuga excepturi repudiandae assumenda fugiat quae. Harum veritatis quod voluptatem nesciunt amet Illo repudiandae et.
+                      </p>
+                      <small>31 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <span><i class="fa fa-star"></i> 5</span>
+                  </div>
+                </article>
+                <!-- END article -->
+
+                <!-- article -->
+                <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-48x48">
+                      <img src="https://i.pravatar.cc/300" class="is-rounded" alt="Placeholder image">
+                    </p>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Jamie Lannister</strong>
+                        <br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quo, omnis quod tempore magni laboriosam ducimus. Laborum excepturi quibusdam, facere tenetur sit fugit illo itaque hic doloremque inventore numquam quod.
+                      </p>
+                      <small>45 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="media-right">
+                    <span><i class="fa fa-star"></i> 3</span>
+                  </div>
+                </article>
+                <!-- END article -->
+
+                <!-- rating -->
+                <article class="media">
+                  <div class="media-content">
+                    <div class="field has-addons has-addons-centered">
+                      <p class="control">
+                        <span class="select">
+                          <select>
+                            <option>1 Star</option>
+                            <option>2 Stars</option>
+                            <option>3 Stars</option>
+                            <option>4 Stars</option>
+                            <option>5 Stars</option>
+                          </select>
+                        </span>
+                      </p>
+                      <p class="control">
+                        <input class="input" type="text" placeholder="Add your review">
+                      </p>
+                      <p class="control">
+                        <a class="button is-black">
+                          Rating
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <!-- END rating -->
+
+              </div>
+            </div>
+          </div>
+          <!-- END RIGHT COLUMN -->
+        </div>
+
+      </div>
+    </section>
+
+    <script src="assets/javascript/navbar.js"></script>
+  </body>
+</html>
