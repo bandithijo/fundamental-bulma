@@ -179,28 +179,39 @@
 
                 <!-- rating -->
                 <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-64x64">
+                      <img src="https://i.pravatar.cc/400" class="is-rounded" alt="Placeholder image"
+                    </p>
+                  </figure>
                   <div class="media-content">
-                    <div class="field has-addons has-addons-centered">
+                    <div class="field">
                       <p class="control">
-                        <span class="select">
-                          <select>
-                            <option>1 Star</option>
-                            <option>2 Stars</option>
-                            <option>3 Stars</option>
-                            <option>4 Stars</option>
-                            <option>5 Stars</option>
-                          </select>
-                        </span>
-                      </p>
-                      <p class="control">
-                        <input class="input" type="text" placeholder="Add your review">
-                      </p>
-                      <p class="control">
-                        <a class="button is-black">
-                          Rating
-                        </a>
+                        <textarea class="textarea" placeholder="Add a review..."></textarea>
                       </p>
                     </div>
+                    <nav class="level">
+                      <div class="level-left">
+                        <div class="level-item">
+                          <a class="button is-info">Submit</a>
+                        </div>
+                      </div>
+                      <div class="level-right">
+                        <div class="level-item">
+                          <div class="control">
+                            <span class="select">
+                              <select>
+                                <option>1 Star</option>
+                                <option>2 Stars</option>
+                                <option>3 Stars</option>
+                                <option>4 Stars</option>
+                                <option>5 Stars</option>
+                              </select>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
                   </div>
                 </article>
                 <!-- END rating -->
